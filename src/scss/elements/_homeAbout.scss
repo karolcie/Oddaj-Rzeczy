@@ -1,0 +1,41 @@
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
+
+.homeAboutBox {
+  width: 1900px;
+  height: 963px;
+  display: flex;
+  &_Image {
+    width: 958px;
+    height: 935px;
+  }
+  &_Content {
+    width: 958px;
+    height: 935px;
+    background: $section-color 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: $text-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__Title {
+    font-size: 38px;
+    margin-top: 186px;
+    margin-bottom: 32px;
+  }
+  &__Text {
+    text-align: center;
+    width: 656.9px;
+    height: 208.91px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    letter-spacing: -0.6px;
+    line-height: 54px;
+  }
+  &__Signature {
+    margin-left: 440px;
+  }
+}

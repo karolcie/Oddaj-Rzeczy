@@ -1,0 +1,48 @@
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
+
+.homeThreeColumnsBox {
+  width: 1900px;
+  height: 384px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &_Column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 334px;
+    height: 252px;
+  }
+}
+.homeThreeColumnsBox__Number {
+  width: 102px;
+  height: 122px;
+  text-align: center;
+  font: normal normal 300 90px/122px Open Sans;
+  letter-spacing: 0;
+  color: $number-color;
+  opacity: 1;
+}
+.homeThreeColumnsBox__Title {
+  text-align: left;
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: -0.36px;
+  color: $text-color;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+.homeThreeColumnsBox__Text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: lighter;
+  font-family: $font-alt;
+  letter-spacing: -0.32px;
+  color: $text-color;
+  opacity: 1;
+}
