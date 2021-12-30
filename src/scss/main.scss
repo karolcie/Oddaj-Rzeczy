@@ -4,7 +4,11 @@
 @import "src/scss/settings/fonts";
 @import "elements/homeHeader";
 @import "elements/homeThreeColumns";
+@import "elements/homeSimpleSteps";
 @import "elements/homeAbout";
+@import "elements/homeWhoWeHelp";
+@import "elements/homeContact";
+@import "elements/contactForm";
 
 body {
   font-family: $font-base;
