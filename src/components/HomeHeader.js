@@ -14,10 +14,16 @@ const HomeHeader = () => {
                 <div className="homeHeaderBox_Content__UpMenu">
                     <div className="upMenuTop">
                         <div className="upMenuTop_Box1">
-                            <Link className="Link2" to="/logowanie">Zaloguj</Link>
+                            <Link className="Link2"
+                                  to="/logowanie">
+                                    Zaloguj
+                            </Link>
                         </div>
                         <div className="upMenuTop_Box2">
-                            <Link className="Link2" to="/rejestracja">Załóż konto</Link>
+                            <Link className="Link2"
+                                  to="/rejestracja">
+                                    Załóż konto
+                            </Link>
                         </div>
                     </div>
                     <div className="upMenuDown">
@@ -75,16 +81,21 @@ const HomeHeader = () => {
                 <div className="homeHeaderBox_Content__DownMenu">
                     <div className="downMenuTop">
                         <div className="downMenuTop_content">
-                            Zacznij pomagać <br/> Oddaj niechciane rzeczy w zaufane ręce
+                            <p>Zacznij pomagać</p> <p>Oddaj niechciane rzeczy w zaufane ręce</p>
                         </div>
-                        <img src={Decoration} alt="Decoration sign"/>
+                        <img src={Decoration}
+                             alt="Decoration sign"/>
                     </div>
                     <div className="downMenuDown">
                         <div className="downMenuDown_Box">
-                            <Link className="Link2" to="/logowanie">Oddaj<br/> rzeczy</Link>
+                            <Link className="Link-btn"
+                                  to="/logowanie">
+                                    <p>Oddaj</p><p>rzeczy</p></Link>
                         </div>
                         <div className="downMenuDown_Box">
-                            <Link className="Link2" to="/logowanie">Zorganizuj<br/> zbiórkę</Link>
+                            <Link className="Link-btn"
+                                  to="/logowanie">
+                                    <p>Zorganizuj</p><p>zbiórkę</p></Link>
                         </div>
                     </div>
                 </div>

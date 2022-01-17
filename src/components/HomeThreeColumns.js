@@ -1,7 +1,5 @@
 import React from 'react';
-import Background from "../assets/3 Columns Background.png";
-// import Background from "../assets/Background-Form.jpg";
-
+import Background from "../assets/3ColumnsBackground.png";
 
 const HomeThreeColumns = () => {
     return (

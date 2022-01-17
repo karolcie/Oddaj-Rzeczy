@@ -10,12 +10,15 @@ const HomeAbout = () => {
                 <div className="homeAboutBox__Title">
                     O nas
                 </div>
-                <img src={Decoration} alt="Decoration sign"/>
+                <img src={Decoration}
+                     alt="Decoration sign"/>
                 <div className="homeAboutBox__Text">
-                    Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. <br/>
-                    Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.
+                    <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery.</p>
+                    <p>Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
                 </div>
-                <img className="homeAboutBox__Signature" src={Signature} alt="Signature"/>
+                <img className="homeAboutBox__Signature"
+                     src={Signature}
+                     alt="Signature"/>
             < /div>
             <div className="homeAboutBox_Image"
                  style={{backgroundImage:`url(${HomePeople})`}}>
